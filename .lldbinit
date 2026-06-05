@@ -1,0 +1,5 @@
+command script import ~/lldb/indesign_formatters.py
+
+type synthetic add \
+    -l indesign_formatters.PMStringProvider \
+    PMString
